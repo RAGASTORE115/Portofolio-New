@@ -1,0 +1,111 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #E52020;
+    color: white;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+.nav-links {
+    display: flex;
+    
+}
+.nav-links a {
+    margin-left: 15px;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 10px;  
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color: #E52020;
+    background-color: white;
+}
+
+.nav-links a:not(:hover) {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 15px;
+        background-color: #E52020;
+        color: white;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #E52020;
+        width: 97.6%;
+        margin: 0 auto;
+        top: 75px;
+        position: absolute;
+        z-index: 1;
+        left: 8px;
+        
+    }
+    .nav-links a {
+        padding: 10px;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .nav-links a:hover {
+    color: #E52020;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 467px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #E52020;
+        width: 96.5%;
+        top: 75px;
+        position: absolute;
+        z-index: 1;
+        left: 8px;
+        
+    }
+    .nav-links a {
+        padding: 10px;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .nav-links a:hover {
+    color: #E52020;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+    .hamburger {
+        display: block;
+    }
+}

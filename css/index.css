@@ -1,0 +1,211 @@
+.hero {
+    padding: 40px;
+    top: 50px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #E52020;
+}
+
+.hero h2 {
+    color: #ffff;
+    background-color: #E52020;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-table button {
+    background-color: #E52020;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.button-table {
+    margin-left: 50px;
+    width: 100%;
+}
+
+.button-table button:hover {
+    transform: scale(1.05);
+}
+
+.button-table button a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2rem;    
+}
+
+.button-table button a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    margin-top: 100px;
+    background-color: #E52020;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-wa {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.contact-wa svg {
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    color: #ffff;
+}
+
+.contact-wa a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-wa a:hover {
+    text-decoration: underline;
+}
+
+.contact-github {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.contact-github svg {
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    color: #ffff;
+}
+
+.contact-github a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-github a:hover {
+    text-decoration: underline;
+}
+
+.contact-email {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.contact-email svg {
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    color: #ffff;
+}
+
+.contact-email a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-email a:hover {
+    text-decoration: underline;
+}
+
+.contact-linkedin {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.contact-linkedin svg {
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    color: #ffff;
+}
+
+.contact-linkedin a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-linkedin a:hover {
+    text-decoration: underline;
+}
+
+.contact-instagram {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.contact-instagram svg {
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    color: #ffff;
+}
+
+.contact-instagram a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-instagram a:hover {
+    text-decoration: underline;
+}
+
+.hero-flex {
+    display: flex;
+}
+.hero-flex img {
+    width: 15%;
+    justify-content: end;
+    align-items: end;
+    border-radius: 100px;
+    margin-left: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero h2 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .hero-flex img {
+        margin-left: 200px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero h2 {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .hero-flex img {
+        margin-left: 100px;
+        width: 50%;
+    }
+    
+}
